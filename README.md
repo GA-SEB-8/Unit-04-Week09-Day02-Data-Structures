@@ -1,4 +1,4 @@
-## Week 7 Day 2 (Sun 25)
+## Week 7 Day 2 (Mon 25)
 
 ### Morning
 
