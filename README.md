@@ -2,25 +2,23 @@
 
 ### Morning
 
-- [Python Data Structures][1]
-- [Python Data Structures Lab][2]
+- Outcomes
 
 ### Afternoon
 
-- [Python Functions][3]
-- [Python Functions Lab][4]
+- [Python Data Structures][1]
+- [Python Data Structures Lab][2]
+- [Python Classes][3]
 
 
 ### Homework
 
-- [Python Functions Lab][4]
+- [Python Data Structures Lab][2]
 
 
 [1]: ./python-data-structures/
 [2]: ./python-for-javascript-developers-data-structures-lab/
-[3]: ./python-functions/
-[4]: ./python-for-javascript-developers-functions-lab/
-
+[3]: ./python-classes/
 
 
 ---
