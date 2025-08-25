@@ -125,3 +125,14 @@ print(colors[1])
 # colors[1] = 'Purple'
 
 print(colors[0:3])
+
+
+
+# Dictionaries
+
+ga_student = {
+    "name":"Abdullah",
+    "favorite_language":"Python"
+}
+
+print(ga_student)
