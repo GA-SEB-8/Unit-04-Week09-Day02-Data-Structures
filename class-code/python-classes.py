@@ -11,11 +11,20 @@ cat2 = {
 
 # creating a new class
 class Cat():
-    def __init__():
-        
+    # rule 1: every clas has an __init__() method
+    # rule 2: ALL class methods first argument is self
+    def __init__(self, name, age, fur_color='white'):
+        print("__init__ method called")
+        self.name = name
+        self.age = age
+        self.fur_color = fur_color
+        self.is_alive = True
+
 
 
 # creating a new object instance of a cat class
-cat3 = Cat('luffy',10)
+cat3 = Cat('luffy',10, 'red')
+cat3 = Cat('zoro',4)
+
 
 print(cat3)
