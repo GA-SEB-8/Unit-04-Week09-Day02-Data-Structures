@@ -112,3 +112,10 @@ del my_students[1:4]
 
 
 print(my_students)
+
+
+# Tuple: Emutable (Never Changing) List
+
+colors = ('Red','Blue','Green')
+
+print(colors)
