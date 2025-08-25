@@ -1,6 +1,6 @@
 # Lists
 # Dictionaries
-# Tupples
+# Tuples
 
 my_students = ['Abdullah','Malak','Amna','Mohammad','Ali']
 
@@ -15,4 +15,59 @@ print(my_students[2])
 my_students[1] = 'Yaqoob'
 
 
+print(my_students)
+
+# index in the negative
+print(my_students[-2])
+
+
+# push() == append(): adds to the end of the List
+my_students.append("yusef")
+
+print(my_students)
+
+
+
+# extend(): adds multiple values to the List
+my_students.extend(['Ayah','Mariam'])
+
+print(my_students)
+
+
+# len(): returns the length of the List
+print(len(my_students))
+
+
+# pop(): removes the last element from the List
+my_students.pop()
+print(my_students)
+
+
+
+# pop(n): removes the nth indexed element
+my_students.pop(0)
+
+print(my_students)
+
+
+
+
+# insert(): adds an element to our List at an index
+my_students.insert(0,'Hesa')
+
+print(my_students)
+
+
+# remove(): removes an element from the array
+my_students.remove("Ali")
+print(my_students)
+
+
+
+# clear(): empties the entire list
+my_students.clear()
+
+print(my_students)
+
+my_students.extend(['Hesa', 'Yaqoob', 'Amna', 'Mohammad', 'yusef', 'Ayah'])
 print(my_students)
