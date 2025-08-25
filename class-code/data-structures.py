@@ -71,3 +71,29 @@ print(my_students)
 
 my_students.extend(['Hesa', 'Yaqoob', 'Amna', 'Mohammad', 'yusef', 'Ayah'])
 print(my_students)
+
+
+
+# looping through a list
+
+for index,student in enumerate(my_students):
+    print(f"{index +1}: {student} is in Software Engineering")
+
+
+# print(list(enumerate(my_students)))
+
+
+print(my_students)
+
+print(my_students[0:2])
+# same thing as above
+print(my_students[:2])
+
+print(my_students[::3])
+
+
+print(my_students)
+
+my_students[0:2] = ["NEW VALUE","Sayed"]
+
+print(my_students)
