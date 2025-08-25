@@ -142,4 +142,8 @@ print(ga_student['name'])
 print(ga_student['favorite_language'])
 
 
-#
+# changing a value in my dictionary
+
+ga_student['favorite_language'] = 'JavaScript'
+
+print(ga_student)
