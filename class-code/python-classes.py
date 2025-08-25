@@ -19,12 +19,22 @@ class Cat():
         self.age = age
         self.fur_color = fur_color
         self.is_alive = True
+    
+    # method
+    def speak(self):
+        print("Meow " + self.name)
+
+
 
 
 
 # creating a new object instance of a cat class
 cat3 = Cat('luffy',10, 'red')
-cat3 = Cat('zoro',4)
+cat4 = Cat('zoro',4)
 
 
-print(cat3)
+# calling a method on cat3
+cat3.speak()
+
+
+print(cat3.name)
