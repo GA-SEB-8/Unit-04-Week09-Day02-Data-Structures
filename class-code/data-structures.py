@@ -85,15 +85,30 @@ for index,student in enumerate(my_students):
 
 print(my_students)
 
-print(my_students[0:2])
+print(my_students[0:4:2])
 # same thing as above
 print(my_students[:2])
 
+# my_students[start:stop:step]
 print(my_students[::3])
 
 
 print(my_students)
 
+# removing from the list and adding in that position
 my_students[0:2] = ["NEW VALUE","Sayed"]
+
+print(my_students)
+
+
+# adding to the middle of the List without removing
+my_students[2:2] = ["Added Value","Mooza"]
+
+print(my_students)
+
+
+# deletes the values in the slice
+del my_students[1:4]
+
 
 print(my_students)
