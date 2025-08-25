@@ -136,3 +136,10 @@ ga_student = {
 }
 
 print(ga_student)
+
+# get a value from my dictionary
+print(ga_student['name'])
+print(ga_student['favorite_language'])
+
+
+#
