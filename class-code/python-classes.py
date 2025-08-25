@@ -56,14 +56,13 @@ class Student():
     def introduce_self(self):
         print(f"my name is {self.name} and I am from {self.country}")
 
-
+    def __str__(self):
+        return f'name={self.name}, country={self.country}'
 
 mohammad = Student('Mohammad','Bahrian')
 yusef = Student('yusef','Bahrian')
 
-
-
 # changing the value of a property for the object
 mohammad.country='Saudi'
 
-print(mohammad.country)
+print(mohammad)
