@@ -147,3 +147,22 @@ print(ga_student['favorite_language'])
 ga_student['favorite_language'] = 'JavaScript'
 
 print(ga_student)
+
+# adding a new key-value pair to my dictionary
+ga_student['course'] = 'Software Engineering'
+print(ga_student)
+
+
+# removing a value from my dictionary
+del ga_student['course']
+
+print(ga_student)
+
+
+print(ga_student.items())
+
+
+# Looping Through a dictionary
+
+for key, value in ga_student.items():
+    print(f"{key} -----> {value}")
