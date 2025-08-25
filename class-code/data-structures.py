@@ -119,3 +119,9 @@ print(my_students)
 colors = ('Red','Blue','Green')
 
 print(colors)
+
+print(colors[1])
+
+# colors[1] = 'Purple'
+
+print(colors[0:3])
